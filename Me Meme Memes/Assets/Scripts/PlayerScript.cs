@@ -6,14 +6,17 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     
-    public Vector2 speed = new Vector2(50, 50);
-    public Vector2 jumpHeight;
+    public Vector2 speed = new Vector2(50, 0);
+
+    
    
     // Store the movement and component
     private Vector2 movement;
     private SpriteRenderer playerRenderer;
     private Rigidbody2D rigidbodyComponent;
     
+
+   
 
     void Awake()
     {
@@ -30,7 +33,7 @@ public class PlayerScript : MonoBehaviour
         float moveHorizontal = speed.x * inputX;
         float moveVertical = speed.x * inputY;
 
-        movement = new Vector2( moveHorizontal, moveVertical);
+        movement = new Vector2(moveHorizontal, 0);
 
         if (playerRenderer != null)
         {
@@ -43,12 +46,10 @@ public class PlayerScript : MonoBehaviour
 
 
 
+        // End Player Movement
 
-
-            // End Player Movement
-
-            // Player Weapons
-            bool shoot = Input.GetButtonDown("Fire1");
+        // Player Weapons
+        bool shoot = Input.GetButtonDown("Fire1");
 
         shoot |= Input.GetButtonDown("Fire2");
 
@@ -97,6 +98,8 @@ public class PlayerScript : MonoBehaviour
             rigidbodyComponent = GetComponent<Rigidbody2D>();
 
         rigidbodyComponent.velocity = movement;
+
+        
 
     }
 
