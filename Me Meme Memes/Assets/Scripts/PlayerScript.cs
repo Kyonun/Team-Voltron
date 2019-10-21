@@ -99,8 +99,6 @@ public class PlayerScript : MonoBehaviour
 
         rigidbodyComponent.velocity = movement;
 
-        
-
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -125,13 +123,13 @@ public class PlayerScript : MonoBehaviour
             if (playerHealth != null) playerHealth.Damage(1);
         }
     }
-    /*
+    
     void OnDestroy()
     {
         // Game Over.
         var gameOver = FindObjectOfType<GameOverScript>();
         gameOver.ShowButtons();
-    }*/
+    }
 }
 
     
