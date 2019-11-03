@@ -11004,26 +11004,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1657386965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd8364ccf1fb854bbbeac84750406bd, type: 3}
+  m_Script: {fileID: 11500000, guid: ea07ff68015c37c43aa5a258164f8620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 1657386968}
-  runSpeed: 120
-  jumpOn: 1
-  crouchOn: 0
---- !u!114 &1657386968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657386965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8526b86173fa36341ae51534957db9d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_JumpForce: 500
+  m_JumpForce: 400
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -11039,6 +11023,22 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1657386968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657386965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518995a751479584b84794683431197e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1657386967}
+  runSpeed: 120
+  jumpOn: 1
+  crouchOn: 0
 --- !u!58 &1657386969
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11050,7 +11050,7 @@ CircleCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -0.29788542, y: -5.2799997}
   serializedVersion: 2
