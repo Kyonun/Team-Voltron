@@ -794,7 +794,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 893c0d965d9984e63bcf03a71f7895db, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2296,12 +2296,12 @@ PrefabInstance:
     - target: {fileID: -1972346147991336547, guid: ba41ea7a197b49a4585d3600b77c134e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.23
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: -1972346147991336547, guid: ba41ea7a197b49a4585d3600b77c134e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.47
+      value: 1.51
       objectReference: {fileID: 0}
     - target: {fileID: -1972346147991336547, guid: ba41ea7a197b49a4585d3600b77c134e,
         type: 3}
@@ -7205,7 +7205,7 @@ PrefabInstance:
     - target: {fileID: -1972346147991336547, guid: ba41ea7a197b49a4585d3600b77c134e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.14
+      value: 3.24
       objectReference: {fileID: 0}
     - target: {fileID: 6674414942132014037, guid: ba41ea7a197b49a4585d3600b77c134e,
         type: 3}
@@ -7770,7 +7770,7 @@ PrefabInstance:
     - target: {fileID: -5907245071874217563, guid: df5c5f146b7d71f4f94f425d95f8986f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.158
+      value: 3.08
       objectReference: {fileID: 0}
     - target: {fileID: 2040394243251136127, guid: df5c5f146b7d71f4f94f425d95f8986f,
         type: 3}
@@ -7955,6 +7955,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522228434902149301, guid: 90b609aa3002f466686a5b2b65ed10fa,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadCloudLevel2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90b609aa3002f466686a5b2b65ed10fa, type: 3}

@@ -109,6 +109,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -794,5 +796,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/0.unity
   - Assets/Scenes/CloudLevel2.unity
   - Assets/Scenes/CloudLevel3.unity
-  playerPath: /Users/goobers/Team-Voltron/Lightning Game/PlayablePhysics/CloudStages/Lightning
-    Game.exe
+  playerPath: /Users/goobers/Team-Voltron/PlayablePhysics/CloudStages/Lightning Game.exe
