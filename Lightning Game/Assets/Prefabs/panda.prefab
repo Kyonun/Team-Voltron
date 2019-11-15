@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 4884140107125031710}
   - component: {fileID: 4884140107125031705}
   - component: {fileID: 4884140107125031704}
+  - component: {fileID: -9014084472255965093}
   m_Layer: 0
-  m_Name: panda (1)
+  m_Name: panda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,3 +146,15 @@ MonoBehaviour:
   ClickToDestroy: 0
   ObjToKeep: 1
   ObjToEliminate: 0
+--- !u!114 &-9014084472255965093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4884140107125031707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 146c3c078535d4504bdbccab13b27d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Start or quit the game
@@ -43,8 +44,26 @@ public class GameOverScript : MonoBehaviour
 
     public void RestartGame()
     {
+
         // Reload the level
-        Application.LoadLevel("0");
+        // Grab the active scene and reload it.
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
+
+        // OG Code:
+        // Application.LoadLevel("CloudLevel");
+        Time.timeScale = 1;
+    }
+
+    public void LoadCloudLevel2()
+    {
+        Application.LoadLevel("CloudLevel2");
+        Time.timeScale = 1;
+    }
+
+    public void LoadCloudLevel3()
+    {
+        Application.LoadLevel("CloudLevel3");
         Time.timeScale = 1;
     }
 }
