@@ -10,14 +10,16 @@ using UnityEngine.SceneManagement;
 public class GameOverScript : MonoBehaviour
 {
     private Button[] buttons;
+    public bool HideButton = false;
 
     void Awake()
     {
         // Get the buttons
         buttons = GetComponentsInChildren<Button>();
 
-        // Disable them
-        //HideButtons();
+        // Allows user to hide button in the UI - Made by: Phil
+        if (HideButton) { HideButtons();}
+       
     }
 
     public void HideButtons()
