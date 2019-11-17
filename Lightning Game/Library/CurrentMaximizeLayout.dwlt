@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 31820
+  controlID: 52339
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,21 +164,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4accffff9cceffffc0d0ffff38f1ffffd2f3ffffc6410000cc410000da410000ea410000fe41000002420000064200000c420000164200001c4200003642000082420000847f0000ca7f000018810000268100003281000036810000528100006881000070810000a8810000ac810000b8810000ce810000de810000
+      m_ExpandedIDs: 1e80ffff2683ffffbe84ffff9c86ffffee87ffff1c8affff728cffffca8dffff3a96ffff4accffff9cceffffc0d0ffff38f1ffffd2f3ffffc6410000cc410000da410000ea410000fe41000002420000064200000c420000164200001c4200003642000082420000847f0000ca7f000018810000268100003281000036810000528100006881000070810000a8810000ac810000b8810000ce810000de810000f81a01005c1b01008a1b0100a61b0100f41d0100fc1d0100121e0100b41e0100b82201003e240100522401005c240100a0240100ae240100b8240100bc240100c0240100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: GrayCloud (1)
+        m_OriginalName: GrayCloud (1)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -42810
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 3}
       m_SearchString: 
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 31821
+  controlID: 52340
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,9 +277,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.146105, y: 1.5798314, z: 150.51237}
+    m_Target: {x: 6.830138, y: 2.307085, z: -12.726836}
     speed: 2
-    m_Value: {x: 5.146105, y: 1.5798314, z: 150.51237}
+    m_Value: {x: 6.830138, y: 2.307085, z: -12.726836}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -312,9 +312,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.5671487
+    m_Target: 2.3701866
     speed: 2
-    m_Value: 5.5671487
+    m_Value: 2.3701866
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -499,8 +499,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ca9affff
-    m_LastClickedInstanceID: -25910
+    m_SelectedInstanceIDs: fc50ffff
+    m_LastClickedInstanceID: -44804
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ce3d00002816020030160200b0320000b4390000
     m_RenameOverlay:
@@ -518,7 +518,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -649,5 +649,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -25910
+  m_LastInspectedObjectInstanceID: -44804
   m_LastVerticalScrollValue: 0
