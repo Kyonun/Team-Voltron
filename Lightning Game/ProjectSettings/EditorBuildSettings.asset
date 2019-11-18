@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/0.unity
     guid: def28b2f22e43f34bb438c62f801f1a2
+  - enabled: 1
+    path: Assets/Scenes/TatooineLevel.unity
+    guid: 041415af3b6f9074f9100b0c4ebf24be
   m_configObjects: {}

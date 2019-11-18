@@ -1976,6 +1976,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2522228434902149301, guid: 90b609aa3002f466686a5b2b65ed10fa,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1965992243}
+    - target: {fileID: 2522228434902149301, guid: 90b609aa3002f466686a5b2b65ed10fa,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadTatooineLevel1
+      objectReference: {fileID: 0}
     - target: {fileID: 2522228433569858903, guid: 90b609aa3002f466686a5b2b65ed10fa,
         type: 3}
       propertyPath: m_AnchoredPosition.y

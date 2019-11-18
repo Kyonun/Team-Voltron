@@ -42,6 +42,12 @@ public class MenuScript : MonoBehaviour
         Application.LoadLevel("CloudLevel4");
     }
 
+    public void LoadTatooineLevel1()
+    {
+        // "Stage1" is the name of the first scene we created.
+        Application.LoadLevel("TatooineLevel");
+    }
+
     public void ExitDesktop()
     {
         Application.Quit();

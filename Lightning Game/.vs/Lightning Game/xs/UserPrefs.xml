@@ -1,11 +1,7 @@
 ﻿<Properties StartupConfiguration="{9BFBAA14-D26C-9FA7-C71F-715CD1A8B837}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HeavierBoxes.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameOverScript.cs" Line="66" Column="43" />
-      <File FileName="Assets/Scripts/ScreenLimit.cs" />
-      <File FileName="Assets/Scripts/MovingPlatform.cs" />
-      <File FileName="Assets/Scripts/ObjectManager.cs" />
-      <File FileName="Assets/Scripts/HeavierBoxes.cs" Line="8" Column="27" />
+      <File FileName="Assets/Scripts/MenuScript.cs" Line="48" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +9,7 @@
           <Node name="Lightning Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="HeavierBoxes.cs" selected="True" />
+                <Node name="MenuScript.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="396c3ae4-34a7-4a8d-af4d-1b87091bc42a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="48957dcc-f9c8-4247-bd73-0971daca6b8e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
