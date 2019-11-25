@@ -961,6 +961,7 @@ GameObject:
   - component: {fileID: 1016270664}
   - component: {fileID: 1016270663}
   - component: {fileID: 1016270665}
+  - component: {fileID: 1016270666}
   m_Layer: 0
   m_Name: Saucer_Moving_Plat
   m_TagString: Untagged
@@ -1072,6 +1073,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.414033, y: 0.5461886}
   m_EdgeRadius: 0
+--- !u!114 &1016270666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016270661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847ef53cc1a3aeb4e9cda2e29ad5bdf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greenTag: BlueStar
+  redTag: RedStar
 --- !u!1001 &1035596812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1965,8 +1980,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418959421}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.059, y: -0.31195444, z: 24.997612}
-  m_LocalScale: {x: 0.8860135, y: 0.30653998, z: 1}
+  m_LocalPosition: {x: -3.97, y: -0.31195444, z: 24.997612}
+  m_LocalScale: {x: 0.8372828, y: 0.30653998, z: 1}
   m_Children: []
   m_Father: {fileID: 1890324570}
   m_RootOrder: 1
