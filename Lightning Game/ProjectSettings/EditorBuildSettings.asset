@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/CloudLevel3.unity
     guid: cf6fac51d03ec412f9479b74bd585c8b
   - enabled: 1
-    path: Assets/Scenes/CloudLevel4.unity
+    path: Assets/Scenes/StarLevel.unity
     guid: 563a770f7ef484046b79c46ae647c7f5
   - enabled: 1
     path: Assets/Scenes/0.unity

@@ -90,7 +90,7 @@ public class MenuScript : MonoBehaviour
     public void LoadCloud4()
     {
         // "Stage1" is the name of the first scene we created.
-        Application.LoadLevel("CloudLevel4");
+        Application.LoadLevel("StarLevel");
         Time.timeScale = 1;
 
     }
