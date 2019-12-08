@@ -1877,45 +1877,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Restart_Button
       objectReference: {fileID: 0}
-    - target: {fileID: 8097394543105431321, guid: 3896eb43c5a56a848adf19ea47443add,
-        type: 3}
-      propertyPath: isHideButtonsOn
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8097394543105431321, guid: 3896eb43c5a56a848adf19ea47443add,
-        type: 3}
-      propertyPath: isHideButtonOn
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8097394542922692862, guid: 3896eb43c5a56a848adf19ea47443add,
         type: 3}
       propertyPath: m_Name
       value: Exit_Button
       objectReference: {fileID: 0}
-    - target: {fileID: 8097394542922692860, guid: 3896eb43c5a56a848adf19ea47443add,
-        type: 3}
-      propertyPath: isHideButtonsOn
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8097394542922692860, guid: 3896eb43c5a56a848adf19ea47443add,
-        type: 3}
-      propertyPath: isHideButtonOn
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2726896237025080105, guid: 3896eb43c5a56a848adf19ea47443add,
         type: 3}
       propertyPath: m_Name
       value: Next_Level_Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 2726896237025080107, guid: 3896eb43c5a56a848adf19ea47443add,
-        type: 3}
-      propertyPath: isHideButtonsOn
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2726896237025080107, guid: 3896eb43c5a56a848adf19ea47443add,
-        type: 3}
-      propertyPath: isHideButtonOn
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8097394543105431322, guid: 3896eb43c5a56a848adf19ea47443add,
         type: 3}
@@ -1981,6 +1951,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: QUIT GAME
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726896237025080107, guid: 3896eb43c5a56a848adf19ea47443add,
+        type: 3}
+      propertyPath: isHideButtonsOn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726896237025080107, guid: 3896eb43c5a56a848adf19ea47443add,
+        type: 3}
+      propertyPath: isHideButtonOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097394542922692860, guid: 3896eb43c5a56a848adf19ea47443add,
+        type: 3}
+      propertyPath: isHideButtonsOn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097394542922692860, guid: 3896eb43c5a56a848adf19ea47443add,
+        type: 3}
+      propertyPath: isHideButtonOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097394543105431321, guid: 3896eb43c5a56a848adf19ea47443add,
+        type: 3}
+      propertyPath: isHideButtonsOn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097394543105431321, guid: 3896eb43c5a56a848adf19ea47443add,
+        type: 3}
+      propertyPath: isHideButtonOn
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3896eb43c5a56a848adf19ea47443add, type: 3}
@@ -2537,7 +2537,7 @@ PrefabInstance:
     - target: {fileID: 2765769337182320513, guid: b96681e8ba044af4f81a2931e144c21c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitMenu
+      value: LoadSpaceSelect
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b96681e8ba044af4f81a2931e144c21c, type: 3}

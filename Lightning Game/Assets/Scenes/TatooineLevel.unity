@@ -1472,6 +1472,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2581296141863512614, guid: 8cfe7695ba9364421b96808d118164e4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 455240587}
+    - target: {fileID: 2581296141863512614, guid: 8cfe7695ba9364421b96808d118164e4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cfe7695ba9364421b96808d118164e4, type: 3}
 --- !u!1 &704445217
@@ -3606,6 +3616,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.39436898
       objectReference: {fileID: 0}
+    - target: {fileID: 2765769337182320513, guid: b96681e8ba044af4f81a2931e144c21c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 455240587}
+    - target: {fileID: 2765769337182320513, guid: b96681e8ba044af4f81a2931e144c21c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadStarWarsSelect
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b96681e8ba044af4f81a2931e144c21c, type: 3}
 --- !u!4 &1664741976 stripped
@@ -3766,6 +3786,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123860807863591457, guid: dcebac15a037140b386d613f5cea7d58,
+        type: 3}
+      propertyPath: EndGameMessage
+      value: 
+      objectReference: {fileID: 1961792002}
     - target: {fileID: 8123860807863591456, guid: dcebac15a037140b386d613f5cea7d58,
         type: 3}
       propertyPath: m_Offset.x
@@ -3776,11 +3801,6 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 30
       objectReference: {fileID: 0}
-    - target: {fileID: 8123860807863591457, guid: dcebac15a037140b386d613f5cea7d58,
-        type: 3}
-      propertyPath: EndGameMessage
-      value: 
-      objectReference: {fileID: 1961792002}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcebac15a037140b386d613f5cea7d58, type: 3}
 --- !u!1001 &1759723011
@@ -3914,6 +3934,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.38893974
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163273677310742506, guid: 6988ed4f6a7454e8080e6e89819d4814,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 455240587}
+    - target: {fileID: 6163273677310742506, guid: 6988ed4f6a7454e8080e6e89819d4814,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExitDesktop
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6988ed4f6a7454e8080e6e89819d4814, type: 3}

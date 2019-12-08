@@ -301,6 +301,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1100416289}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &118885177 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8097394542307611086, guid: 3896eb43c5a56a848adf19ea47443add,
+    type: 3}
+  m_PrefabInstance: {fileID: 8097394542291491575}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &121687596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1753,12 +1759,6 @@ Transform:
   m_Father: {fileID: 1261743222}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!224 &1608053513 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8097394542307611086, guid: 3896eb43c5a56a848adf19ea47443add,
-    type: 3}
-  m_PrefabInstance: {fileID: 8097394542291491575}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1617092435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8929433480708235012, guid: 97fc33b631821b344880a0e510575f3a,
@@ -2662,7 +2662,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1608053513}
+    m_TransformParent: {fileID: 118885177}
     m_Modifications:
     - target: {fileID: 3609815167326961207, guid: b96681e8ba044af4f81a2931e144c21c,
         type: 3}
@@ -2779,6 +2779,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1452014467}
+    - target: {fileID: 2765769337182320513, guid: b96681e8ba044af4f81a2931e144c21c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadCloudSelect
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b96681e8ba044af4f81a2931e144c21c, type: 3}
 --- !u!1001 &8097394542291491575

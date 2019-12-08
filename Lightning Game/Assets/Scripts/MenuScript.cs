@@ -8,13 +8,55 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class MenuScript : MonoBehaviour
 {
-    public void StartGame()
+    /*------Menu Scenes------*/
+    public void ExitDesktop()
     {
-        // "Stage1" is the name of the first scene we created.
-        Application.LoadLevel("LevelSelect");
+        Application.Quit();
+    }
+
+    public void ExitMenu()
+    {
+        Application.LoadLevel("PackSelect");
+    }
+    public void LoadPackSelect()
+    {
+        Application.LoadLevel("PackSelect");
         Time.timeScale = 1;
     }
 
+    public void LoadTutorial()
+    {
+        Application.LoadLevel("Tutorial");
+        Time.timeScale = 1;
+    }
+    public void LoadCloudSelect()
+    {
+        Application.LoadLevel("CloudLevelSelect");
+        Time.timeScale = 1;
+    }
+    public void LoadIndustrialSelect()
+    {
+        Application.LoadLevel("IndustrialLevelSelect");
+        Time.timeScale = 1;
+    }
+    public void LoadSpaceSelect()
+    {
+        Application.LoadLevel("SpaceLevelSelect");
+        Time.timeScale = 1;
+    }
+    public void LoadStarWarsSelect()
+    {
+        Application.LoadLevel("StarWarsLevelSelect");
+        Time.timeScale = 1;
+    }
+    public void StartGame()
+    {
+        // "Stage1" is the name of the first scene we created.
+        Application.LoadLevel("PackSelect");
+        Time.timeScale = 1;
+    }
+
+    /*------Level Scenes------*/
     public void LoadLightning()
     {
         Application.LoadLevel("0");
@@ -61,14 +103,30 @@ public class MenuScript : MonoBehaviour
 
     }
 
-    public void ExitDesktop()
+    public void LoadAlderaanLevel()
     {
-        Application.Quit();
+        Application.LoadLevel("AlderaanLevel");
+        Time.timeScale = 1;
     }
 
-    public void ExitMenu()
+    public void LoadWoodLevel1()
     {
-        Application.LoadLevel("LevelSelect");
+        Application.LoadLevel("WoodLevel1");
+        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PlayMusic();
+        Time.timeScale = 1;
+    }
+
+    public void LoadWoodLevel2()
+    {
+        Application.LoadLevel("WoodLevel2");
+        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PlayMusic();
+        Time.timeScale = 1;
+    }
+
+    public void LoadWoodLevel3()
+    {
+        Application.LoadLevel("WoodLevel3");
+        Time.timeScale = 1;
     }
 
     public void RestartGame()

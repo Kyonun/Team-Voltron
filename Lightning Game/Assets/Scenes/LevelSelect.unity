@@ -265,7 +265,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Industrial (BETA)
+  m_Text: Industrial
 --- !u!222 &242815110
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1976,6 +1976,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2522228433569858903, guid: 90b609aa3002f466686a5b2b65ed10fa,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000009536743
+      objectReference: {fileID: 0}
     - target: {fileID: 2522228434902149301, guid: 90b609aa3002f466686a5b2b65ed10fa,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1985,11 +1990,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadTatooineLevel1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2522228433569858903, guid: 90b609aa3002f466686a5b2b65ed10fa,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.0000009536743
       objectReference: {fileID: 0}
     - target: {fileID: 2522228433569858902, guid: 90b609aa3002f466686a5b2b65ed10fa,
         type: 3}
@@ -2077,9 +2077,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cloud 4 (BETA)
-
-'
+  m_Text: Space 1
 --- !u!222 &2059711108
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -3208,7 +3208,7 @@ PrefabInstance:
     - target: {fileID: 2765769337182320513, guid: b96681e8ba044af4f81a2931e144c21c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitMenu
+      value: LoadCloudSelect
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b96681e8ba044af4f81a2931e144c21c, type: 3}
