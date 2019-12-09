@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 247
+  controlID: 1035
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 248
+  controlID: 1000
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -359,9 +359,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 6afbffff
+      m_SelectedIDs: c6f5ffff
+      m_LastClickedID: -2618
+      m_ExpandedIDs: 6ef6ffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -421,9 +421,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.2516985, y: 5.836302, z: -2375.8582}
+    m_Target: {x: -6.618493, y: -3.8766022, z: -2391.833}
     speed: 2
-    m_Value: {x: -5.2516985, y: 5.836302, z: -2375.8582}
+    m_Value: {x: -6.618493, y: -3.8766022, z: -2391.833}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -456,9 +456,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.816071
+    m_Target: 3.4742982
     speed: 2
-    m_Value: 10.816071
+    m_Value: 3.4742982
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -549,19 +549,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/NightLevel
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/NightLevel
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/goobers/Team-Voltron/Lightning Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: 802e0000
-    m_LastClickedID: 11904
+    m_SelectedIDs: 0c300000
+    m_LastClickedID: 12300
     m_ExpandedIDs: 00000000ae2d0000383000006033000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
