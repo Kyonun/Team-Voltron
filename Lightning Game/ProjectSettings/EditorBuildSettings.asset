@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 7f7592081d66ee24fa02d814a8490e05
+  - enabled: 1
+    path: Assets/Scenes/NightLevel.unity
+    guid: 5f443e02a43a84be3b45b7a0b64b1dea
   m_configObjects: {}

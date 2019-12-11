@@ -7,6 +7,13 @@ TagManager:
   - BlueStar
   - RedStar
   - Music
+  - Buttons
+  - Level1Button
+  - Level2Button
+  - Level3Button
+  - Level1
+  - Level2
+  - Level3
   layers:
   - Default
   - TransparentFX

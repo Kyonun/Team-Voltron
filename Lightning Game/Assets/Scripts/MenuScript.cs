@@ -8,6 +8,9 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class MenuScript : MonoBehaviour
 {
+
+    private bool isWin = false; //win boolean
+
     /*------Menu Scenes------*/
     public void ExitDesktop()
     {
@@ -17,6 +20,7 @@ public class MenuScript : MonoBehaviour
     public void ExitMenu()
     {
         Application.LoadLevel("PackSelect");
+        Time.timeScale = 1;
     }
     public void LoadPackSelect()
     {
@@ -112,20 +116,29 @@ public class MenuScript : MonoBehaviour
     public void LoadWoodLevel1()
     {
         Application.LoadLevel("WoodLevel1");
-        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PlayMusic();
         Time.timeScale = 1;
     }
 
     public void LoadWoodLevel2()
     {
-        Application.LoadLevel("WoodLevel2");
-        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PlayMusic();
-        Time.timeScale = 1;
+        //trying to make a condition where you can't go to next level without a win
+        //isWin =  ScreenLimit.ScreenLimitRef.Win;
+        //if(isWin == true)
+        //{
+            Application.LoadLevel("WoodLevel2");
+            Time.timeScale = 1;
+        //}
+
     }
 
     public void LoadWoodLevel3()
     {
         Application.LoadLevel("WoodLevel3");
+        Time.timeScale = 1;
+    }
+    public void LoadNightLevel1()
+    {
+        Application.LoadLevel("NightLevel");
         Time.timeScale = 1;
     }
 

@@ -8,10 +8,16 @@ public class ObjectManager : MonoBehaviour
     public bool ClickToDestroy = false; //object will be destroyed when clicked
     public bool ObjToKeep = false;      //if true, you'll lose if this gets destroyed
     public bool ObjToEliminate = false; //if true, this object will help you win
-
+    public static ObjectManager ObjectManagerRef; //reference to object manager
+    private bool isLoss = false; //loss boolean
+    private bool isWin = false;
     void OnMouseDown()
     {
-        if (ClickToDestroy == true)
+        //reference to Loss bool from ScreenLimit
+        isLoss =  ScreenLimit.ScreenLimitRef.Loss;
+        isWin = ScreenLimit.ScreenLimitRef.Win;
+        //if you lose, clicks will no longer destroy blocks
+        if (ClickToDestroy == true && isLoss == false && isWin == false)
         {
             Destroy(gameObject);
 
@@ -19,4 +25,9 @@ public class ObjectManager : MonoBehaviour
             ClickManager.clickManagerRef.clicksLeft--;
         }
     } // end OnMouseDown
+
+    void Start()
+    {
+        ObjectManagerRef = this;
+    }
 } // end class
