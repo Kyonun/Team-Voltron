@@ -53,6 +53,13 @@ public class ScreenLimit : MonoBehaviour
             //display loss text
             EndGameMessage.gameObject.SetActive(true);
             EndGameMessage.text = "You Lose!";
+
+            //reactivate any hidden buttons
+            foreach(GameObject button in buttons)
+                {
+                    button.SetActive(true);
+                }
+
             Time.timeScale = 0;
             Loss = true;
         }

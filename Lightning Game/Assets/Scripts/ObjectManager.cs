@@ -11,13 +11,16 @@ public class ObjectManager : MonoBehaviour
     public static ObjectManager ObjectManagerRef; //reference to object manager
     private bool isLoss = false; //loss boolean
     private bool isWin = false;
+    private bool clickLoss = false;
     void OnMouseDown()
     {
         //reference to Loss bool from ScreenLimit
         isLoss =  ScreenLimit.ScreenLimitRef.Loss;
         isWin = ScreenLimit.ScreenLimitRef.Win;
+        clickLoss = ClickScript.clickScriptRef.Loss;
+
         //if you lose, clicks will no longer destroy blocks
-        if (ClickToDestroy == true && isLoss == false && isWin == false)
+        if (ClickToDestroy == true && isLoss == false && isWin == false && clickLoss == false)
         {
             Destroy(gameObject);
 

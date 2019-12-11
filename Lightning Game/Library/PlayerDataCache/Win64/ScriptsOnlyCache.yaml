@@ -1414,7 +1414,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: f9b15861fdb11ce363c31a7ff2ffc44b
+      Hash: f622f8b9c52c8c21ab3f6ccee7dba9fe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ClickScript
@@ -1775,4 +1775,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/AlderaanLevel.unity
   - Assets/Scenes/Tutorial.unity
   - Assets/Scenes/NightLevel.unity
-  playerPath: D:/Documents/Team-Voltron/Demo4/Lightning Game.exe
+  playerPath: C:/Users/ThinkPad T440s/Documents/Team-Voltron/Demo4V2/Lightning Game.exe

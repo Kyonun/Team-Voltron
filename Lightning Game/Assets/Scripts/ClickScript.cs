@@ -17,12 +17,17 @@ public class ClickScript : MonoBehaviour
     private int clicksLeft;
     private int initialClicks;
     Text clickAmount;
+    public bool Loss;
+    GameObject[] buttons; //button array to store any objects tagged "Buttons"
+
 
     private void Start()
     {
         clickScriptRef = this; // Reference to ClickScript
         clickAmount = GetComponent<Text>(); // Refers to whatever the Text object's script component is
-
+        
+        //buttons array will store all objects with tag "Buttons"
+        buttons = GameObject.FindGameObjectsWithTag("Buttons");
 
     } // end Start
 
@@ -39,7 +44,14 @@ public class ClickScript : MonoBehaviour
         {
             clickAmount.text = "OUT OF CLICKS";
             EndGameMessage.text = "You Lose!";
+
+            foreach(GameObject button in buttons)
+                {
+                    button.SetActive(true);
+                }
+
             Time.timeScale = 0;
+            Loss = true;
 
         }
 
