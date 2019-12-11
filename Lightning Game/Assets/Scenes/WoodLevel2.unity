@@ -511,6 +511,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4030213412606110592, guid: e89bb51902e97334eb002c15aa49a344,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dd80c46f157b2a46b82bdda6b6653ed, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e89bb51902e97334eb002c15aa49a344, type: 3}
 --- !u!1001 &309389561
@@ -2982,11 +2987,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 309919236045774351}
     m_Modifications:
-    - target: {fileID: 1006927702289669413, guid: a052c9742cbb3b241b450515c1cc916a,
-        type: 3}
-      propertyPath: m_Name
-      value: EndGameMessage
-      objectReference: {fileID: 0}
     - target: {fileID: 1006927702289669412, guid: a052c9742cbb3b241b450515c1cc916a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3091,6 +3091,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1006927702289669413, guid: a052c9742cbb3b241b450515c1cc916a,
+        type: 3}
+      propertyPath: m_Name
+      value: EndGameMessage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a052c9742cbb3b241b450515c1cc916a, type: 3}
@@ -3804,11 +3809,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 309919236045774351}
     m_Modifications:
-    - target: {fileID: 2312105444671064048, guid: 1d6a14766f1434f449db19d7cadd5aa5,
-        type: 3}
-      propertyPath: m_Name
-      value: ClickAmount
-      objectReference: {fileID: 0}
     - target: {fileID: 2312105444671064049, guid: 1d6a14766f1434f449db19d7cadd5aa5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3913,6 +3913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312105444671064048, guid: 1d6a14766f1434f449db19d7cadd5aa5,
+        type: 3}
+      propertyPath: m_Name
+      value: ClickAmount
       objectReference: {fileID: 0}
     - target: {fileID: 2312105444671064050, guid: 1d6a14766f1434f449db19d7cadd5aa5,
         type: 3}
