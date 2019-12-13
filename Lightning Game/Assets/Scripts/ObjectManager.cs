@@ -20,7 +20,8 @@ public class ObjectManager : MonoBehaviour
         clickLoss = ClickScript.clickScriptRef.Loss;
 
         //if you lose, clicks will no longer destroy blocks
-        if (ClickToDestroy == true && isLoss == false && isWin == false && clickLoss == false)
+        //if timeScale is 0, clicks will no longer destroy blocks (for pauses and glitched states)
+        if (ClickToDestroy == true && isLoss == false && isWin == false && clickLoss == false && Time.timeScale == 1)
         {
             Destroy(gameObject);
 

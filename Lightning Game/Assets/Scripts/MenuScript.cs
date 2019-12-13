@@ -121,20 +121,25 @@ public class MenuScript : MonoBehaviour
 
     public void LoadWoodLevel2()
     {
-        //trying to make a condition where you can't go to next level without a win
-        //isWin =  ScreenLimit.ScreenLimitRef.Win;
-        //if(isWin == true)
-        //{
+        //won't load level 2 unless you've beaten level 1
+        isWin = LevelLocker.LevelLockerRef.Lvl1Win;
+        if(isWin == true)
+        {
             Application.LoadLevel("WoodLevel2");
             Time.timeScale = 1;
-        //}
+        }
 
     }
 
     public void LoadWoodLevel3()
     {
-        Application.LoadLevel("WoodLevel3");
-        Time.timeScale = 1;
+        //won't load level 3 unless you've beaten level1
+        isWin = LevelLocker.LevelLockerRef.Lvl2Win;
+        if(isWin == true)
+        {
+            Application.LoadLevel("WoodLevel3");
+            Time.timeScale = 1;
+        }
     }
     public void LoadNightLevel1()
     {

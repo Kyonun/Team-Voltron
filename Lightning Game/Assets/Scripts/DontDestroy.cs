@@ -13,6 +13,7 @@ public class DontDestroy : MonoBehaviour
 {
     public static DontDestroy DontDestroyRef;
     GameObject[] objs;
+    GameObject[] levelLock;
     void Awake()
     {
         objs = GameObject.FindGameObjectsWithTag("Music");
@@ -40,5 +41,16 @@ public class DontDestroy : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
         DontDestroyRef = this;
+
+        levelLock = GameObject.FindGameObjectsWithTag("Level");
+
+        if (levelLock.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+
+
     }
 }

@@ -6,60 +6,60 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Title.unity
+    path: Assets/Scenes/Levels/Title.unity
     guid: d982c89e49c7c0b4b9ef7a95c2abf85c
   - enabled: 1
-    path: Assets/Scenes/WoodLevel1.unity
+    path: Assets/Scenes/Levels/Industrial/WoodLevel1.unity
     guid: 95c5fe6e124722f4d9e85b30221536c3
   - enabled: 1
-    path: Assets/Scenes/LevelSelect.unity
+    path: Assets/Scenes/Old/LevelSelect.unity
     guid: b9e76b3f20dbd454eb9716e9db382f6e
   - enabled: 1
-    path: Assets/Scenes/CloudLevel.unity
+    path: Assets/Scenes/Levels/Cloud/CloudLevel.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/CloudLevel2.unity
+    path: Assets/Scenes/Levels/Cloud/CloudLevel2.unity
     guid: f59c1e4d95657b54bbcae9b355546955
   - enabled: 1
-    path: Assets/Scenes/CloudLevel3.unity
+    path: Assets/Scenes/Levels/Cloud/CloudLevel3.unity
     guid: cf6fac51d03ec412f9479b74bd585c8b
   - enabled: 1
-    path: Assets/Scenes/StarLevel.unity
+    path: Assets/Scenes/Levels/Star/StarLevel.unity
     guid: 563a770f7ef484046b79c46ae647c7f5
   - enabled: 1
-    path: Assets/Scenes/0.unity
+    path: Assets/Scenes/Old/0.unity
     guid: def28b2f22e43f34bb438c62f801f1a2
   - enabled: 1
-    path: Assets/Scenes/TatooineLevel.unity
+    path: Assets/Scenes/Levels/TatooineLevel.unity
     guid: 041415af3b6f9074f9100b0c4ebf24be
   - enabled: 1
-    path: Assets/Scenes/CloudLevelSelect.unity
+    path: Assets/Scenes/Selection/CloudLevelSelect.unity
     guid: 3c4f67326e491a449af0ec4d946379b7
   - enabled: 1
-    path: Assets/Scenes/IndustrialLevelSelect.unity
+    path: Assets/Scenes/Selection/IndustrialLevelSelect.unity
     guid: 7ae2c950dba6ce244a98a86848c77573
   - enabled: 1
-    path: Assets/Scenes/PackSelect.unity
+    path: Assets/Scenes/Selection/PackSelect.unity
     guid: fcf3fd66b2e1de14ba2785cda6cd6c34
   - enabled: 1
-    path: Assets/Scenes/SpaceLevelSelect.unity
+    path: Assets/Scenes/Selection/SpaceLevelSelect.unity
     guid: a229e039e7edce8438d963d5bd6c586c
   - enabled: 1
-    path: Assets/Scenes/StarWarsLevelSelect.unity
+    path: Assets/Scenes/Selection/StarWarsLevelSelect.unity
     guid: c1cf836635ada3f479b437ba6058d7b6
   - enabled: 1
-    path: Assets/Scenes/WoodLevel2.unity
+    path: Assets/Scenes/Levels/Industrial/WoodLevel2.unity
     guid: 14c7722016ec46446beac1d696bd5f65
   - enabled: 1
-    path: Assets/Scenes/WoodLevel3.unity
+    path: Assets/Scenes/Levels/Industrial/WoodLevel3.unity
     guid: b2b6e3e6f2a76704589ec547ae1db0cd
   - enabled: 1
-    path: Assets/Scenes/AlderaanLevel.unity
+    path: Assets/Scenes/Levels/AlderaanLevel.unity
     guid: 51e7dcbb0c12caa4fba5c892c969e080
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
+    path: Assets/Scenes/Levels/Cloud/Tutorial.unity
     guid: 7f7592081d66ee24fa02d814a8490e05
   - enabled: 1
-    path: Assets/Scenes/NightLevel.unity
+    path: Assets/Scenes/Levels/Cloud/NightLevel.unity
     guid: 5f443e02a43a84be3b45b7a0b64b1dea
   m_configObjects: {}

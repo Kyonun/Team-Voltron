@@ -43,6 +43,10 @@ public class ScreenLimit : MonoBehaviour
             {
                 button.SetActive(false);
             }
+        if (Loss == true)
+        {
+            Time.timeScale = 0;
+        }
     }
     
     void OnTriggerEnter2D (Collider2D other)
@@ -71,6 +75,8 @@ public class ScreenLimit : MonoBehaviour
 
             if(ObjectsToEliminateCount == ObjectsToEliminateAmount) 
             {
+                //wait to see if there is a way to lose before winning
+
                 //display win text
                 EndGameMessage.gameObject.SetActive(true);
                 EndGameMessage.text = "YOU WIN!";
@@ -82,14 +88,23 @@ public class ScreenLimit : MonoBehaviour
                 }
 
                 //set Level1Win to true, unlocks level 2
-                /*if (SceneManager.GetActiveScene().name == "WoodLevel1")
+                if (SceneManager.GetActiveScene().name == "WoodLevel1")
                 {
-                    //Level1Win = true;
+                    Level1Win = true;
                     LevelLocker.LevelLockerRef.Lvl1Win = true;
                     Time.timeScale = 0;
                     Win = true;
-                }*/
-
+                }
+                 //set Level2Win to true, unlocks level 3
+                if (SceneManager.GetActiveScene().name == "WoodLevel2")
+                {
+                    //Level1Win = true;
+                    LevelLocker.LevelLockerRef.Lvl2Win = true;
+                    Time.timeScale = 0;
+                    Win = true;
+                }
+                
+ 
                 Time.timeScale = 0;
                 Win = true;
             }
