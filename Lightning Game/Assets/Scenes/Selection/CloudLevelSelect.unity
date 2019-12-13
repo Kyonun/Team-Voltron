@@ -120,6 +120,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &223532174
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3443486871024791338, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_Name
+      value: LevelLocker
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 548.19836
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 318.38184
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -140.04477
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443486871024791335, guid: c31406d9f7065154fa0552f73db9aeb5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c31406d9f7065154fa0552f73db9aeb5, type: 3}
 --- !u!1 &641182556
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,6 +679,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2451454350570294679}
+    - target: {fileID: 6889597511093207115, guid: eee2262f6193f214ebb9b038ea0049bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level3Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889597512658730628, guid: eee2262f6193f214ebb9b038ea0049bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level2Button
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eee2262f6193f214ebb9b038ea0049bb, type: 3}
 --- !u!224 &2191400299762847333 stripped

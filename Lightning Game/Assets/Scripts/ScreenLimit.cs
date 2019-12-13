@@ -12,7 +12,6 @@ public class ScreenLimit : MonoBehaviour
     public int ObjectsToEliminateCount;
     public bool Win = false;
     public bool Loss = false;
-    public bool Level1Win = false;
     public static ScreenLimit ScreenLimitRef; //reference to ScreenLimit to use in other functions
     GameObject[] buttons; //button array to store any objects tagged "Buttons"
 
@@ -66,6 +65,40 @@ public class ScreenLimit : MonoBehaviour
 
             Time.timeScale = 0;
             Loss = true;
+
+            //if you lose level 1, locks level 2 industrial
+            if (SceneManager.GetActiveScene().name == "WoodLevel1")
+            {
+                LevelLocker.LevelLockerRef.Lvl1WinInd = false;
+                Time.timeScale = 0;
+                Win = false;
+                Loss = true;
+            }
+            //if you lose level 2, unlocks level 3 industrial
+            if (SceneManager.GetActiveScene().name == "WoodLevel2")
+            {
+                LevelLocker.LevelLockerRef.Lvl2WinInd = false;
+                Time.timeScale = 0;
+                Win = false;
+                Loss = true;
+            }
+
+            //if you lose level 1, locks level 2 cloud
+            if (SceneManager.GetActiveScene().name == "CloudLevel")
+            {
+                LevelLocker.LevelLockerRef.Lvl1WinCloud = false;
+                Time.timeScale = 0;
+                Win = false;
+                Loss = true;
+            }
+            //if you lose level 2, unlocks level 3 cloud
+            if (SceneManager.GetActiveScene().name == "CloudLevel2")
+            {
+                LevelLocker.LevelLockerRef.Lvl2WinCloud = false;
+                Time.timeScale = 0;
+                Win = false;
+                Loss = true;
+            }
         }
 
         //win state
@@ -76,36 +109,39 @@ public class ScreenLimit : MonoBehaviour
             if(ObjectsToEliminateCount == ObjectsToEliminateAmount) 
             {
                 //wait to see if there is a way to lose before winning
-
-                //display win text
-                EndGameMessage.gameObject.SetActive(true);
-                EndGameMessage.text = "YOU WIN!";
-                
-                //reactivate any hidden buttons
-                foreach(GameObject button in buttons)
-                {
-                    button.SetActive(true);
-                }
+                StartCoroutine(delay());
 
                 //set Level1Win to true, unlocks level 2
                 if (SceneManager.GetActiveScene().name == "WoodLevel1")
                 {
-                    Level1Win = true;
-                    LevelLocker.LevelLockerRef.Lvl1Win = true;
-                    Time.timeScale = 0;
+                    LevelLocker.LevelLockerRef.Lvl1WinInd = true;
+                    //Time.timeScale = 0;
                     Win = true;
                 }
                  //set Level2Win to true, unlocks level 3
                 if (SceneManager.GetActiveScene().name == "WoodLevel2")
                 {
-                    //Level1Win = true;
-                    LevelLocker.LevelLockerRef.Lvl2Win = true;
-                    Time.timeScale = 0;
+                    LevelLocker.LevelLockerRef.Lvl2WinInd = true;
+                    //Time.timeScale = 0;
                     Win = true;
                 }
-                
- 
-                Time.timeScale = 0;
+
+                //if you lose level 1, locks level 2 cloud
+                if (SceneManager.GetActiveScene().name == "CloudLevel")
+                {
+                    LevelLocker.LevelLockerRef.Lvl1WinCloud = true;
+                    //Time.timeScale = 0;
+                    Win = true;
+                }
+                //if you lose level 2, unlocks level 3 cloud
+                if (SceneManager.GetActiveScene().name == "CloudLevel2")
+                {
+                    LevelLocker.LevelLockerRef.Lvl2WinCloud = true;
+                    //Time.timeScale = 0;
+                    Win = true;
+                }
+                 
+                //Time.timeScale = 0;
                 Win = true;
             }
         }
@@ -130,6 +166,25 @@ public class ScreenLimit : MonoBehaviour
                         button.SetActive(true);
                     }
                 }
+        }
+    }
+
+    IEnumerator delay()
+    {
+        EndGameMessage.gameObject.SetActive(true);
+        EndGameMessage.text = "=CHECKING=";
+        yield return new WaitForSeconds(1);
+        EndGameMessage.text = "==CHECKING==";
+        yield return new WaitForSeconds(1);
+        EndGameMessage.text = "<==CHECKING==>";
+        yield return new WaitForSeconds(1);
+        EndGameMessage.text = "YOU WIN!";
+
+        Time.timeScale = 0;
+        //reactivate any hidden buttons
+        foreach(GameObject button in buttons)
+        {
+            button.SetActive(true);
         }
     }
 }

@@ -78,16 +78,25 @@ public class MenuScript : MonoBehaviour
     public void LoadCloud2()
     {
         // "Stage1" is the name of the first scene we created.
-        Application.LoadLevel("CloudLevel2");
-        Time.timeScale = 1;
-
+        //won't load level 2 unless you've beaten level 1
+        isWin = LevelLocker.LevelLockerRef.Lvl1WinCloud;
+        if(isWin == true)
+        {
+            Application.LoadLevel("CloudLevel2");
+            Time.timeScale = 1;
+        }
     }
 
     public void LoadCloud3()
     {
         // "Stage1" is the name of the first scene we created.
-        Application.LoadLevel("CloudLevel3");
-        Time.timeScale = 1;
+        //won't load level 2 unless you've beaten level 1
+        isWin = LevelLocker.LevelLockerRef.Lvl1WinInd;
+        if(isWin == true)
+        {
+            Application.LoadLevel("CloudLevel3");
+            Time.timeScale = 1;
+        }
 
     }
 
@@ -122,7 +131,7 @@ public class MenuScript : MonoBehaviour
     public void LoadWoodLevel2()
     {
         //won't load level 2 unless you've beaten level 1
-        isWin = LevelLocker.LevelLockerRef.Lvl1Win;
+        isWin = LevelLocker.LevelLockerRef.Lvl1WinInd;
         if(isWin == true)
         {
             Application.LoadLevel("WoodLevel2");
@@ -134,7 +143,7 @@ public class MenuScript : MonoBehaviour
     public void LoadWoodLevel3()
     {
         //won't load level 3 unless you've beaten level1
-        isWin = LevelLocker.LevelLockerRef.Lvl2Win;
+        isWin = LevelLocker.LevelLockerRef.Lvl2WinInd;
         if(isWin == true)
         {
             Application.LoadLevel("WoodLevel3");
