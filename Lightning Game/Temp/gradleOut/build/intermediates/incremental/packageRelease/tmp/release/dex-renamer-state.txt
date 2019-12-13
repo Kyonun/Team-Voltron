@@ -1,0 +1,4 @@
+#Fri Dec 13 13:07:04 MST 2019
+base.0=/Users/goobers/Team-Voltron/Lightning Game/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
