@@ -1,4 +1,9 @@
 Created by: Team Voltron
+	    Joseph Camacho-Terrazas
+	    Gabriella Garcia
+	    Xiana Lara
+	    Phillip Powell
+	    
 Author:     Phillip Powell
 Date:	    December 15, 2019
 
